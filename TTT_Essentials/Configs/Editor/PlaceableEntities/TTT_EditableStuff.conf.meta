@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{80F94F8B32C0F09C}Configs/Editor/PlaceableEntities/TTT_EditableStuff.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

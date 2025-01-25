@@ -1,0 +1,13 @@
+GenericEntity : "{48C842DD171DE304}Prefabs/Structures/Signs/Large/SignLarge_01_base.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{54969A6AAAADA251}" {
+   Materials {
+    MaterialAssignClass "{647273E4E29D4B8D}" {
+     SourceMaterial "SignLarge_01"
+     AssignedMaterial "{834959B56546E44F}Assets/Structures/Signs/Large/Data/SignLarge_TTT.emat"
+    }
+   }
+  }
+ }
+}

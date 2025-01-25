@@ -1,0 +1,43 @@
+GenericEntity : "{752F87C7E1FA6D63}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Launcher_US_TTT.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{644D0269887E1DDB}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{644D0269AFA91B77}" {
+    Name "#AR-EditableEntity_EquipmentBoxWooden_Launcher_01_US_Name"
+    m_Image "{16D979172E6BEA49}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Launcher_01_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{644D0269843E4DB9}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{644D0269BAE105F1}" {
+     m_iParentID -1
+     m_Mesh "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6471133E6DEC8A4E}" {
+     SlotTemplate InventoryStorageSlot Pzf3_Ammo {
+      Prefab "{14F592D7A5313E0B}Prefabs/Weapons/Ammo/Ammo_Rocket_3ITHEAT.et"
+     }
+    }
+   }
+  }
+ }
+}

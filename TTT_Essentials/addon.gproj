@@ -1,0 +1,22 @@
+GameProject {
+ ID "TTTEssentials"
+ GUID "64710ACC5C41592C"
+ TITLE "TTT_Essentials"
+ Dependencies {
+  "62F364B35E9B51B0" "62E76AB6CC8DFD39" "6214CEA5DA92BFF3" "5AB890B71D748750" "61074E6967AF669F" "60C4C12DAE90727B" "60C4CE4888FF4621" "5CA125536EE7430A" "5AF6E0F075D79473" "595F2BF2F44836FB" "5AB301290317994A" "5ABD0CB57F7E9EB1" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

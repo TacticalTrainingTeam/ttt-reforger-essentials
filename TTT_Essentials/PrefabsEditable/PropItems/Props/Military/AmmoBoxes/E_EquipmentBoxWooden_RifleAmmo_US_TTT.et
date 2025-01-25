@@ -1,0 +1,68 @@
+GenericEntity : "{D4AE12C1125A488B}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_RifleAmmo_US_TTT.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{644B24588DE9F678}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{644B24584D373B38}" {
+    Name "#AR-EditableEntity_EquipmentBoxWooden_Ammunition_01_US_Name"
+    m_Image "{B9573ABC3DCFEAA1}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Ammunition_01_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{644B24588BDD3103}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{644B2458794EC7AE}" {
+     m_iParentID -1
+     m_Mesh "{9E1DFF036BCE913E}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Ammunition_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6471133DAE10361C}" {
+     SlotTemplate InventoryStorageSlot RifleAmmo_BW {
+      Prefab "{A6ADA3AD1788995A}Prefabs/Weapons/Magazines/G36Mag/556x45_G36.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6471133DAE8AE022}" {
+     SlotTemplate InventoryStorageSlot RifleAmmo_G28 {
+      Prefab "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6471133D613A5A1A}" {
+     SlotTemplate InventoryStorageSlot RifleAmmo_G95 {
+      Prefab "{F69E2A9E4CE2EADC}Prefabs/Weapons/Magazines/G95Mag/Gen3_PMag_M995_BLK.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6471133D634E3A59}" {
+     SlotTemplate InventoryStorageSlot MG3_Ammo {
+      Prefab "{D4737754E71BF24D}Prefabs/Weapons/Magazines/MG3/Box_762x51_M60_500rnd_2Ball_1Tracer_MG3.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6471133BABC72CB3}" {
+     SlotTemplate InventoryStorageSlot HK_Ammo {
+      Prefab "{506A0F728603714F}Prefabs/Weapons/Magazines/HK437 Mags/Gen3_PMag_.300blk.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+}

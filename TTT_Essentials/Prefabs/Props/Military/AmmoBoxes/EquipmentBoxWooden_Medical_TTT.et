@@ -1,0 +1,103 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{644AAC07CF6B762A}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 1000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{644B2456D50C6D48}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 80000
+   MultiSlots {
+    MultiSlotConfiguration "{644B244740B78A30}" {
+     SlotTemplate InventoryStorageSlot Bandagen {
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{644B244741B27196}" {
+     SlotTemplate InventoryStorageSlot MorphinInj {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{644B2447419F87AC}" {
+     SlotTemplate InventoryStorageSlot SalineBags {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{644B24474269602B}" {
+     SlotTemplate InventoryStorageSlot TQs {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644B244742481F10}" {
+     SlotTemplate InventoryStorageSlot EpiInj {
+      Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{64726576A3DDDEF0}" {
+     SlotTemplate InventoryStorageSlot Metro {
+      Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{64726576A3829D4D}" {
+     SlotTemplate InventoryStorageSlot Naloxon {
+      Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{647265765C4B2540}" {
+     SlotTemplate InventoryStorageSlot Phenyl {
+      Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 80
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+   additionalActions {
+    SCR_PickUpItemAction "{644B24444BC407FB}" {
+    }
+    SCR_AttachItemFromInventoryAction "{644B244447B981D9}" {
+    }
+   }
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

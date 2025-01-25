@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F2209E3532E5A842}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_DMR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

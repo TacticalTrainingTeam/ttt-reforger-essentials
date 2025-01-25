@@ -1,0 +1,34 @@
+GenericEntity : "{492887787C6C7CE7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_1680rnd_US_TTT.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{644B2459E49AE15B}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{644B2459B419E553}" {
+    Name "#AR-EditableEntity_AmmoBox_556x45_1680rnd_Name"
+    m_Image "{B3BA2ED23493E884}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/E_AmmoBox_556x45_1680rnd.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 120
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{644B24599B590C5C}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{644B245988453CAF}" {
+     m_iParentID -1
+     m_Mesh "{9F3EBDC04E344A36}Assets/Props/Military/AmmoBox/AmmoBox_556x45_1680rnd/AmmoBox_556x45_1680rnd.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+}

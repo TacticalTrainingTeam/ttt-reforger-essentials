@@ -1,0 +1,44 @@
+GenericEntity : "{AEF4A5E00D131231}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Medical_TTT.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{644D026836211EEE}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{644D0269C2749B50}" {
+    Name "#AR-EditableEntity_EquipmentBoxWooden_Medical_01_US_Name"
+    m_Image "{BEA7B5CAF7785C3B}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Medical_01_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 121
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{644D0269D6BC0CB1}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{644D0269E262AA78}" {
+     m_iParentID -1
+     m_Mesh "{FE31750973EA92C7}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Medical_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6471133DE7321381}" {
+     SlotTemplate InventoryStorageSlot Richsalz {
+      Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+}

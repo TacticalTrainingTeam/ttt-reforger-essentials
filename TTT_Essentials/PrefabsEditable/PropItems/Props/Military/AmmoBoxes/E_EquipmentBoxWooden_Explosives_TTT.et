@@ -1,0 +1,44 @@
+GenericEntity : "{28156277DF25435A}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Explosives_TTT.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{644B2444C4763E0D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{644B2444FCD64C20}" {
+    Name "#AR-EditableEntity_EquipmentBoxWooden_Explosives_01_US_Name"
+    m_Image "{084249E7CF28E8D4}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Explosives_01_US.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 1 120
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 769
+  }
+  SCR_PreviewEntityComponent "{644B2445103615CD}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{644B2444F0B612B6}" {
+     m_iParentID -1
+     m_Mesh "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6471133C381EEA35}" {
+     SlotTemplate InventoryStorageSlot Grenade_BW {
+      Prefab "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+     }
+     NumSlots 20
+    }
+   }
+  }
+ }
+}

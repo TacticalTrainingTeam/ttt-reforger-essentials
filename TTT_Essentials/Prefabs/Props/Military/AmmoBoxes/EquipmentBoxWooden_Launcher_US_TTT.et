@@ -1,0 +1,73 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{644AAC07CF6B762A}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 1000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{644B2456D50C6D48}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_2x2
+    m_SlotType SLOT_BACKPACK
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 80000
+   MultiSlots {
+    MultiSlotConfiguration "{644B2441CDAD0EE6}" {
+     SlotTemplate InventoryStorageSlot M72Launch {
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{644B24409D1D39EE}" {
+     SlotTemplate InventoryStorageSlot MK153_Ammo {
+      Prefab "{2C935EF6F98E6354}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEAA.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{6471133E6DEC8A4E}" {
+     SlotTemplate InventoryStorageSlot Pzf3_Ammo {
+      Prefab "{14F592D7A5313E0B}Prefabs/Weapons/Ammo/Ammo_Rocket_3ITHEAT.et"
+     }
+     NumSlots 5
+    }
+   }
+   m_fMaxWeight 80
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+   additionalActions {
+    SCR_PickUpItemAction "{644B24444BC407FB}" {
+    }
+    SCR_AttachItemFromInventoryAction "{644B244447B981D9}" {
+    }
+   }
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}

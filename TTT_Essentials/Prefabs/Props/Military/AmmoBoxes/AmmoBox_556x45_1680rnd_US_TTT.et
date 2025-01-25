@@ -1,0 +1,94 @@
+GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9F3EBDC04E344A36}Assets/Props/Military/AmmoBox/AmmoBox_556x45_1680rnd/AmmoBox_556x45_1680rnd.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5C5339160C8869E2}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+    SCR_AudioSourceConfiguration "{5C533916090D28B6}" {
+     m_sSoundProject "{2285D7ED0CE3463E}Sounds/Props/Military/AmmoBoxes/AmmoBox_Small_Wooden/Props_AmmoBox_Small_Wooden.acp"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{644AAC078023C36E}" {
+     Weight 5
+     SizeSetupStrategy Manual
+     ItemVolume 5000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{644B245104EAF77E}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      CameraOffset 0 0 0
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 35000
+   MultiSlots {
+    MultiSlotConfiguration "{644AAC15175A4372}" {
+     SlotTemplate InventoryStorageSlot RifleAmmo {
+      Prefab "{9749CCE07F466A68}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M995.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{644AAC1511237FC4}" {
+     SlotTemplate InventoryStorageSlot LmgAmmo {
+      Prefab "{4EEDDB27C023B8B9}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_Tracer.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{644D026AAD656EE0}" {
+     SlotTemplate InventoryStorageSlot DmrAmmo {
+      Prefab "{E1CAF505C9E42E58}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110_M993.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 39
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.0994 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{644AAC11EE4D3152}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{644AAC11E245EE12}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+    SCR_AttachItemFromInventoryAction "{644AAC0DCA9CC454}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo SCR_ActionUIInfo "{644AAC0DF877212C}" {
+      Name "#AR-UserAction_Attach"
+     }
+     CanAggregate 1
+     "Inventory action" 1
+    }
+   }
+  }
+ }
+ coords 3112.856 15.999 2743.287
+}

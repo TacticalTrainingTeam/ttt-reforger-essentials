@@ -1,0 +1,50 @@
+GenericEntity {
+ coords 1385.975 36.201 2384.559
+}
+GenericEntity : "{0DEFE311584EAE1D}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_EquipmentBoxWooden_RifleAmmo_US_TTT.et" {
+ coords 1382.452 36.252 2383.423
+}
+GenericEntity : "{227F37561D6C28DA}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_EquipmentBoxWooden_Launcher_US_TTT.et" {
+ coords 1384.418 36.272 2378.486
+}
+GenericEntity : "{28156277DF25435A}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Explosives_TTT.et" {
+ coords 1376.006 36.344 2368.407
+}
+GenericEntity : "{40D93F5C348BF244}Prefabs/Structures/Signs/Large/SignLarge_TTT.et" {
+ coords 1381.347 36.246 2388.701
+ angleY 173.195
+}
+GenericEntity : "{45ED510173AF4BEB}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole1_TTT.et" {
+ coords 1376.387 36.565 2388.656
+}
+GenericEntity : "{492887787C6C7CE7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x45_1680rnd_US_TTT.et" {
+ coords 1377.067 36.344 2366.969
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 1375.273 36.436 2380.36
+ angleX 0.894
+ angleY 0.028
+ angleZ 1.79
+}
+GenericEntity : "{752F87C7E1FA6D63}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Launcher_US_TTT.et" {
+ coords 1374.349 36.369 2369.636
+}
+GenericEntity : "{9881687C06B40FBD}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_EquipmentBoxWooden_Medical_TTT.et" {
+ coords 1383.429 36.296 2380.809
+}
+GenericEntity : "{99D8B4513D470A98}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_EquipmentBoxWooden_Explosives_TTT.et" {
+ coords 1385.378 36.296 2376.514
+}
+GenericEntity : "{AEF4A5E00D131231}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Medical_TTT.et" {
+ coords 1372.67 36.375 2371.459
+}
+GenericEntity : "{C8B055BE135BC087}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_AmmoBox_556x45_1680rnd_US_TTT.et" {
+ coords 1386.294 36.299 2374.472
+}
+GenericEntity : "{D4AE12C1125A488B}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_RifleAmmo_US_TTT.et" {
+ coords 1371.182 36.375 2373.433
+}
+SCR_SpawnPoint : "{F20107A21D6A693B}Prefabs/MP/Spawning/SpawnPoint_BW.et" {
+ coords 1381.218 36.287 2384.177
+ angleZ 2.684
+}

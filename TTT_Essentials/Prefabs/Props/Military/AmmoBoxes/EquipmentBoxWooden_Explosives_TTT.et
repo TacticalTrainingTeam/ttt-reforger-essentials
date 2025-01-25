@@ -1,0 +1,90 @@
+GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{26602B855125635D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Explosives_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5476CDB2EAD8225E}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{644AAC07CF6B762A}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 10 10 10
+     ItemVolume 1000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{644B2456D50C6D48}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 2
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+   }
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 80000
+   MultiSlots {
+    MultiSlotConfiguration "{644B245A68BC4CEF}" {
+     SlotTemplate InventoryStorageSlot UGL_Ammo {
+      Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+     NumSlots 40
+    }
+    MultiSlotConfiguration "{644B245A69168A85}" {
+     SlotTemplate InventoryStorageSlot Frg_Grenades {
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{6471133E47736CDA}" {
+     SlotTemplate InventoryStorageSlot Grenades_BW {
+      Prefab "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+     }
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{644B245A69AD1CB3}" {
+     SlotTemplate InventoryStorageSlot Smoke_Grenades {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644B245A6A33C65B}" {
+     SlotTemplate InventoryStorageSlot TNT_Demo {
+      Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644D026A7FE0A1DF}" {
+     SlotTemplate InventoryStorageSlot SmokeRed {
+      Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{644D026A7840000B}" {
+     SlotTemplate InventoryStorageSlot SmokeGreen {
+      Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+     NumSlots 10
+    }
+   }
+   m_fMaxWeight 80
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+  RplComponent "{5476B36C54387F41}" {
+   Enabled 1
+  }
+ }
+}
