@@ -17,7 +17,7 @@ SCR_ChimeraCharacter : "{D3D1604F474A8DC0}Prefabs/Characters/Factions/BLUFOR/TTT
    WeaponTemplate "{1E91B906CA86D89C}Prefabs/Weapons/Rifles/G36KA4/Rifle_G36KA4_Desert_V4.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
-   WeaponTemplate "{8CBC2C62354CC4E3}Prefabs/Weapons/Launchers/Panzerfaust 3/Launcher_Panzerfaust3_NEW.et"
+   WeaponTemplate "{B5C2334ADFB038FF}Prefabs/Weapons/Launchers/Panzerfaust 3/Launcher_Panzerfaust3.et"
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
