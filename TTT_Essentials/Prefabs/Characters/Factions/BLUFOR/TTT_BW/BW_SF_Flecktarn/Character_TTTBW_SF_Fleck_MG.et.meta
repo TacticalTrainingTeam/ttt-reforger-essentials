@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E469BC90EA9464E9}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Flecktarn/Character_TTTBW_SF_Fleck_MG.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

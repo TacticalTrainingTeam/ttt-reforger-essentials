@@ -1,0 +1,72 @@
+SCR_ChimeraCharacter : "{CDD9F846AB62DE8D}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Flecktarn/Character_TTTBW_SF_Fleck_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_MachineGunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAuthoredLabels + {
+     34
+    }
+    m_aAutoLabels {
+     122 43
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3A8F9E7956E795A3}Prefabs/Weapons/MachineGuns/MG3/MG_MG3.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{F175FAC5A30AFFBF}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_MGGunner_Flecktarn.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6334D0C262AB15FE}" {
+     PrefabsToSpawn {
+      "{9D1ABFF476F8635C}Prefabs/Items/Equipment/Nightvision/GPNVG18/NVG_GPNVG18_WP_Black.et" "{EE8C73B70ED445B3}Prefabs/Items/Equipment/Nightvision/GPNVG18/GPNVG18_BatPack_Black.et" "{8D323543CDB32D23}Prefabs/Weapons/Attachments/Lasers/LLM01/Laser_LLM01_BLK.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{FE632C5800998CB9}Prefabs/Weapons/Attachments/Optics/exps/Optic_EXPS3-1_MG3.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81812531276}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     PrefabsToSpawn {
+      "{3CE24296D8BC18E5}Prefabs/Weapons/Handguns/USP/Handgun_HK_USP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A818121939C5}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{09EF99655036DBB3}Prefabs/Weapons/Magazines/USP/Magazine_9x19_USP_15rnd_M882.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81812DD4F34}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{09EF99655036DBB3}Prefabs/Weapons/Magazines/USP/Magazine_9x19_USP_15rnd_M882.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A8181286086D}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_MGPouch_Flecktarn.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81813303746}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_MGPouch_Flecktarn.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81813F854D5}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_Spiritus_Dangler_Flecktarn.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -56,6 +56,9 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
     }
     ItemsInitConfigurationItem "{6334D0C262AB15FE}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Tropentarn.et"
+     PrefabsToSpawn {
+      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{9D1ABFF476F8635C}Prefabs/Items/Equipment/Nightvision/GPNVG18/NVG_GPNVG18_WP_Black.et" "{EE8C73B70ED445B3}Prefabs/Items/Equipment/Nightvision/GPNVG18/GPNVG18_BatPack_Black.et" "{B7346B7A5D239914}Prefabs/Weapons/Attachments/Lasers/LLM01/Laser_LLM01_Tan.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+     }
     }
    }
   }

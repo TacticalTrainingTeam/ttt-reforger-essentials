@@ -1,0 +1,84 @@
+SCR_ChimeraCharacter : "{CDD9F846AB62DE8D}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Flecktarn/Character_TTTBW_SF_Fleck_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sniper"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_aAuthoredLabels + {
+     33
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{692B2999D46B0351}Prefabs/Weapons/Rifles/G28/Variants/Rifle_G28_BW.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{FA01945CF8587CC7}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_Rifleman_Flecktarn.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6334D0C262AB15FE}" {
+     PrefabsToSpawn + {
+      "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C399DCB93}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     PrefabsToSpawn {
+      "{3CE24296D8BC18E5}Prefabs/Weapons/Handguns/USP/Handgun_HK_USP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3A420129}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{09EF99655036DBB3}Prefabs/Weapons/Magazines/USP/Magazine_9x19_USP_15rnd_M882.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3A03D746}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{09EF99655036DBB3}Prefabs/Weapons/Magazines/USP/Magazine_9x19_USP_15rnd_M882.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3AD51FD6}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_Flecktarn.et"
+     PrefabsToSpawn {
+      "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3B6EA6B0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3BA35CB0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C345518AF}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6484A81C3543D4C1}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}
