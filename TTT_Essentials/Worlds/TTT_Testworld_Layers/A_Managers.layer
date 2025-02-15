@@ -61,7 +61,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
      m_bShowInWelcomeScreenIfNonPlayable 0
     }
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
-     m_bShowInWelcomeScreenIfNonPlayable 0
+     m_bIsPlayable 1
     }
     SCR_Faction "{623962205CE2B89C}" {
      m_bShowInWelcomeScreenIfNonPlayable 0
@@ -178,6 +178,11 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutName "BW AMG"
    m_sLoadoutResource "{A2941E58B87485D6}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_AMG.et"
    m_sAffiliatedFaction "BW"
+  }
+  SCR_FactionPlayerLoadout "{6499080D0C89999C}" {
+   m_sLoadoutName "USMC AAT"
+   m_sLoadoutResource "{9F62A12764FDC292}Prefabs/Characters/Factions/BLUFOR/TTT_USMC/USMC_MEF/Character_TTT_USMC_MEF_AAT.et"
+   m_sAffiliatedFaction "RHS_USAF"
   }
  }
 }

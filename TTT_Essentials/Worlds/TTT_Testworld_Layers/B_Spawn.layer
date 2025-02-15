@@ -26,6 +26,9 @@ SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  angleY 0.028
  angleZ 1.79
 }
+SCR_SpawnPoint : "{69D81D4A5FB98F58}Prefabs/MP/Spawning/SpawnPoint_USMC_CP.et" {
+ coords 1377.116 36.342 2376.998
+}
 GenericEntity : "{752F87C7E1FA6D63}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_Launcher_US_TTT.et" {
  coords 1374.349 36.369 2369.636
 }

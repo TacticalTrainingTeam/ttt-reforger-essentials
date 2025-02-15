@@ -1,0 +1,107 @@
+SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT_USMC/USMC_MEF/Character_TTT_USMC_MEF_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Grenadier"
+    m_aAuthoredLabels + {
+     38
+    }
+    m_aAutoLabels {
+     122 41
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{61C6D7507EB9857C}Prefabs/5AB890B71D748750/Weapon_Variants_B/Rifle_M4_Variant_Block2_UGL.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{0417F658F2723A30}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9491D7A1C4D8412E}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_ublg.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{649511F291E02EF5}" {
+     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+    }
+    ItemsInitConfigurationItem "{649511F2530DB07C}" {
+     PrefabsToSpawn + {
+      "{90A20A1ED92AD477}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_ARD.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{2BA3B074AE0BFF82}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M713.et" "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et" "{F30BD9B5D782E1DE}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M715.et" "{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et" "{9F5FED556B466EF0}Prefabs/Weapons/Ammo/Ammo_Grenade_Marker_M716.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF9702BC34703}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Placard.et"
+     PrefabsToSpawn {
+      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF9702B9EB4AC}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF970247A0DD8}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF9702452AAC0}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF9702426D051}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF970241EC247}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_1.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF97024F98A9C}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_2.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF97024D5F174}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_40mm_3.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF97024CFEF2F}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_bandolier.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF9702548C8A1}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{649CF972C46F2A96}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{15DD16FC733BC82D}Prefabs/Characters/Factions/BLUFOR/TTT_USMC/USMC_MEF/Character_TTT_USMC_MEF_AMG.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EC22B92768341280}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_coverd_p.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{7A31BAAF2D74B8B4}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{55223B8AEFD6A07C}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPATDesert.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6063106E91310A3D}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    ItemsInitConfigurationItem "{61B52C4506FFE973}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt_Arid.et"
+    }
+    ItemsInitConfigurationItem "{649511F291E02EF5}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPATDesert.et"
+    }
+   }
+  }
+ }
+}
