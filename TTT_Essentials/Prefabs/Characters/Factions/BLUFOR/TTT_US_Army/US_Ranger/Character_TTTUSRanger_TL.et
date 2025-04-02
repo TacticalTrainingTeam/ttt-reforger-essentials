@@ -21,6 +21,10 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
     LoadoutSlotInfo Vest {
      Prefab "{2AF228B633F7B7CB}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_SquadLeader_MC.et"
     }
