@@ -22,14 +22,17 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Pants {
-     Prefab "{DD6750AD7E2ECC61}Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPAT.et"
+     Prefab "{7DF25380BEFEA3A0}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_marpat.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{BD05886A0F6F195A}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman_shawplacard2.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{649511F291E02EF5}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Tactical_Pants/Tactical_Pants_MARPAT.et"
+     TargetStorage "Pants/crye_pants_marpat.et"
     }
     ItemsInitConfigurationItem "{649511F2530DB07C}" {
      PrefabsToSpawn {
@@ -37,67 +40,67 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{649E820244BD71DF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/Placard/Pouch_Placard.et"
      PrefabsToSpawn {
-      "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
+      "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et" "{AE484B2A9DBDF18E}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_Coy_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{649E82024484DEF8}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_1.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/flex2/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{649E820245D79B56}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_2.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/filbe/Pouch_FILBE_doubleM4_2.et"
      PrefabsToSpawn {
       "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{649E8202465B0B9C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/flex/Pouch_Shaw_Flex.et"
      PrefabsToSpawn {
-      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
+      "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{649E820246F08BA6}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/m18/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{649E820246A24E6D}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/m18_2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{649E8202476450E1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/pistol2/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{649E8202473EF35B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/m67_2/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{649E8202470F19C8}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
       "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{649E820247BC0600}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/nerdbig/Pouch_Shaw_Nerd_Big.et"
      PrefabsToSpawn {
       "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }
     }
     ItemsInitConfigurationItem "{649E8202145A0FED}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid.et"
+     TargetStorage "Vest/Vest_PCGen_III_rifleman_shawplacard2.et/ifak/Pouch_PCGEN3_ifak.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
      }

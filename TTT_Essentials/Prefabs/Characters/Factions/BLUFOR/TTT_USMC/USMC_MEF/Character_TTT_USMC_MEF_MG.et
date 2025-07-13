@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Pants {
-     Prefab "{0417F658F2723A30}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+     Prefab "{7DF25380BEFEA3A0}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_marpat.et"
     }
     LoadoutSlotInfo Vest {
      Prefab "{8CCD7C0728F3BD3D}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_nobelt_MG.et"
@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{649511F291E02EF5}" {
-     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MARPAT.et"
+     TargetStorage "Pants/crye_pants_marpat.et"
     }
     ItemsInitConfigurationItem "{649511F2530DB07C}" {
      PrefabsToSpawn {
@@ -40,31 +40,31 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{649E820D7EEDEE79}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{649E820D7EC7AA4E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_MG.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/saw2/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{649E820D7EA173B3}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_152_Radio.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/radio/Pouch_152_Radio.et"
      PrefabsToSpawn {
       "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{649E820D7E9BBE18}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/ifak/Pouch_PCGEN3_ifak.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{649E820D6F2590D5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Admin.et"
+     TargetStorage "Vest/Vest_PCGen_III_nobelt_MG.et/ifak/Pouch_PCGEN3_ifak.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }

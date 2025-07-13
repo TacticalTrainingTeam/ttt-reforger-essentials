@@ -31,21 +31,45 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{6334DC71017D463E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/PistolMagpouch1/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
-      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et" "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC710103D663}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_Spiritus_Dangler_MC.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/DanglerPouch/Pouch_Spiritus_Dangler_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC72EF3E364C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2F3B6A5C5E}" {
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/PistolMagPouches2/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2F273D1DF7}" {
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Pouch3/Pouch_JPC_MGPouch_MC.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2F271AF42D}" {
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Pouch4/Pouch_JPC_MGPouch_MC.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2F27F9F74F}" {
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/MGPouchBelt/Pouch_JPC_MGPouch_MC.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
    }

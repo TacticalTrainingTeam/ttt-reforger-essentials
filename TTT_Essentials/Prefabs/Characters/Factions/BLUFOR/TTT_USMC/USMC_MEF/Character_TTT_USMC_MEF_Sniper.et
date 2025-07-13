@@ -31,68 +31,68 @@ SCR_ChimeraCharacter : "{A5C05678C07C2E22}Prefabs/Characters/Factions/BLUFOR/TTT
      Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{5954E7E6197D0916}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper2.et"
+     Prefab "{38D600B4D232D9D9}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_sniper.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{649511F2530DB07C}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
+     TargetStorage "Back/FILBE_hydration_pack.et"
      PrefabsToSpawn + {
       "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{649E8205A10D7933}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_Base.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/pistolpouch2/Pouch_Filbe_M67_Base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{649E8205A1E9EC0C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m67/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{649E8205A1C55E01}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m18_1/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{649E8205A1A09CEA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/m18_2/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{649E820550E1610A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/nerd/Pouch_Shaw_Nerd_Big.et"
      PrefabsToSpawn {
       "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{649E820550C21041}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_util.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/raid/Pouch_Shaw_Raid.et"
      PrefabsToSpawn {
       "{925F3A6F7FE0DE64}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M61AP.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et" "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
      }
     }
     ItemsInitConfigurationItem "{649E820544C88452}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_Coy.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/radio/Pouch_AVS_MBITR_Radio_Coy.et"
      PrefabsToSpawn {
       "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
      }
     }
     ItemsInitConfigurationItem "{649E820544A8F3C5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/pistol/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{649E8205456F71AC}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_okinawa_Coy_sniper.et/pistol2/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
      }

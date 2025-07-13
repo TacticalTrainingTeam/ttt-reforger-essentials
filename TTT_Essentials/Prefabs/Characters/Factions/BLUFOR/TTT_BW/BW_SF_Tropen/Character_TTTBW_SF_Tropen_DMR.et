@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{D3D1604F474A8DC0}Prefabs/Characters/Factions/BLUFOR/TTT
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Vest {
-     Prefab "{DB1DE1410DE59770}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_Rifleman_Tropentarn.et"
+     Prefab "{FB9F3B9FFDB7F7B5}Prefabs/Characters/Vests/Vest_JPC/Variants/Vest_JPC_Rifleman2_Tropentarn.et"
     }
    }
   }
@@ -31,49 +31,49 @@ SCR_ChimeraCharacter : "{D3D1604F474A8DC0}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{647291A83BD2E835}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{647291A83BA73E59}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/PistolMagPouch1/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{647291A83B86C077}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/PistolMagPouch2/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{647291A83460CBEF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_Tropentarn.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/Pouch1/Pouch_OpenTop_JPC_Tropentarn.et"
      PrefabsToSpawn {
       "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et" "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et"
      }
     }
     ItemsInitConfigurationItem "{647291A8345AFF70}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/DanglerPouch/Pouch_Dangler_Tropentarn.et"
      PrefabsToSpawn {
       "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
      }
     }
     ItemsInitConfigurationItem "{647291A83433B311}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/BeltPouch2/Pouch_UP104_utilmini_MC.et"
      PrefabsToSpawn {
       "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
      }
     }
     ItemsInitConfigurationItem "{647291A83408120F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/SmokePouches/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{647291A834B0651C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_JPC_Rifleman2_Tropentarn.et/SmokePouches2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

@@ -34,79 +34,79 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{6334DC63150E63CE}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6315D86D1E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/PistolMagPouch1/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6315BAEF6F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/PistolmagPouch2/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6315862A67}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_MC.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/Pouch1/Pouch_OpenTop_JPC_MC.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC63160D3B0C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/AFAK/Pouch_FILBE_doubleM4_3.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6321C9CB3E}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_FILBE_doubleM4_3.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/M4MagPouchBelt1/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC64F8BB660F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/GrenadePouch1/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{645693CFBBD7A7B1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/GrenadePouch2/Pouch_Filbe_M67_2.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC64F89E38EA}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/UGLPouch1/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC64F962563B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/UGLPouch2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC64BDEEC235}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_MC.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/BeltPouch1/Pouch_UP103_Medkit_MC.et"
      PrefabsToSpawn {
       "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC64BE648775}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_Mid_MC.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/Pouch4/Pouch_Mid_MC.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6401BDB8D3}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MC.et"
+     TargetStorage "Vest/Vest_JPC_Medic_MC.et/ATAK/Pouch_UP102_Admin_small_MC.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }

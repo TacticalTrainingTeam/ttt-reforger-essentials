@@ -21,13 +21,13 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      Prefab "{80760BF3FEE19F97}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_RGR_AMP.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{3AA3547BE24AD632}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Flecktarn.et"
+     Prefab "{C2C47C6F6BB0E005}Prefabs/Characters/Uniforms/VKPO/KSK_Combat_Shirt_Flecktarn.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{3F50186E4CE4093F}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC1_0_Flecktarn.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{6A5DCCEDACB572B5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_Flecktarn.et"
+     Prefab "{74BC0CC80AD6EDF1}Prefabs/Characters/Uniforms/VKPO/KSK_Combat_Pants_Flecktarn.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
@@ -46,16 +46,16 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Flecktarn.et"
+     TargetStorage "Jacket/KSK_Combat_Shirt_Flecktarn.et"
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Flecktarn.et"
+     TargetStorage "Jacket/KSK_Combat_Shirt_Flecktarn.et"
     }
     ItemsInitConfigurationItem "{6334D0C2FADA2F84}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_Flecktarn.et"
+     TargetStorage "Pants/KSK_Combat_Pants_Flecktarn.et"
     }
     ItemsInitConfigurationItem "{6334D0C262AB15FE}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Flecktarn.et"
+     TargetStorage "Back/Backpack_511_rush12_Flecktarn.et"
      PrefabsToSpawn {
       "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{9D1ABFF476F8635C}Prefabs/Items/Equipment/Nightvision/GPNVG18/NVG_GPNVG18_WP_Black.et" "{EE8C73B70ED445B3}Prefabs/Items/Equipment/Nightvision/GPNVG18/GPNVG18_BatPack_Black.et" "{8D323543CDB32D23}Prefabs/Weapons/Attachments/Lasers/LLM01/Laser_LLM01_BLK.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et" "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
      }

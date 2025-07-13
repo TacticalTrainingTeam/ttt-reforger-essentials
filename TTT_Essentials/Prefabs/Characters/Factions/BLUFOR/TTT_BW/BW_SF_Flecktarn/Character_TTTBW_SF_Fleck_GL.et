@@ -31,27 +31,93 @@ SCR_ChimeraCharacter : "{CDD9F846AB62DE8D}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{6484A81E93989E34}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{3CE24296D8BC18E5}Prefabs/Weapons/Handguns/USP/Handgun_HK_USP.et"
      }
     }
     ItemsInitConfigurationItem "{6484A81E8C427ADF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_M4_Solo_Flecktarn.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/Pouch3/Pouch_JPC_M4_Solo_Flecktarn.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6484A81E8C1C6A5B}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_Flecktarn.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/Pouch1/Pouch_OpenTop_JPC_Flecktarn.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6484A81E8CDFEBD5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/DanglerPouch/Pouch_Dangler_Flecktarn.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et" "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+      "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et" "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB26466EE6D0}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/Pouch4/Pouch_JPC_M4_Solo_Flecktarn.et"
+     PrefabsToSpawn {
+      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2646F32CAC}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouchVest1/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2646D19620}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouchVest2/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2646B1A5B5}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouchVest3/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2646912298}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch1/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB264770E278}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch2/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB26476CE2C5}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch3/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB264749AE40}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch4/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB260920F6E2}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch5/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB26091F87B0}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch7/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65D8CB2609FF7BE5}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_Flecktarn.et/UGLPouch8/Pouch_40MM_Flecktarn.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
      }
     }
    }

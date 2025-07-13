@@ -42,40 +42,43 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{6334DC654141D175}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC654119E502}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/PistolMagpouch1/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6541EC51B4}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/PistolMagPouches2/Pouch_Highspeed_Pistol.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6541BC98F1}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_MGPouch_MC.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Pouch3/Pouch_JPC_MGPouch_MC.et"
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC6541865521}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_MGPouch_MC.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/Pouch4/Pouch_JPC_MGPouch_MC.et"
      PrefabsToSpawn {
       "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC654266552F}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_MGPouch_MC.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/MGPouchBelt/Pouch_JPC_MGPouch_MC.et"
+     PrefabsToSpawn {
+      "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
     }
     ItemsInitConfigurationItem "{6334DC6532C39C46}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_Spiritus_Dangler_MC.et"
+     TargetStorage "Vest/Vest_JPC_MGGunner_MC.et/DanglerPouch/Pouch_Spiritus_Dangler_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

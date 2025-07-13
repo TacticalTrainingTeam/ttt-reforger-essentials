@@ -34,61 +34,61 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{63367DB60A6DD0CB}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB60A1497A8}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/PistolMagPouch1/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB60AFCEAE5}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/PistolmagPouch2/Pouch_Highspeed_Pistol_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB60AD5E514}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_MC.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/Pouch1/Pouch_OpenTop_JPC_MC.et"
      PrefabsToSpawn {
       "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et" "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et" "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB60AA85A3C}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MC.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/M4MagPouchBelt1/Pouch_PCGEN3_takoPouch_MC.et"
      PrefabsToSpawn {
       "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et" "{32FEAE3A26BBF05D}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M995.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB743D1650A}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_1.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/UGLPouch1/Pouch_Filbe_M18_1.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB743CB6EF8}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Filbe_M18_2.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/UGLPouch2/Pouch_Filbe_M18_2.et"
      PrefabsToSpawn {
       "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB0D7D860A2}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP120_utilmolleminus_MC.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/Pouch4/Pouch_Shaw_Nerd_Big.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{63367DB0D79171E2}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Nerd_Big.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/BeltPouch1/Pouch_Tenspeed_Dumppouch_MC.et"
      PrefabsToSpawn {
       "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
      }
     }
     ItemsInitConfigurationItem "{6471132255548F96}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MC.et"
+     TargetStorage "Vest/Vest_JPC_SquadLeader_MC.et/BeltPouch2/Pouch_UP104_utilmini_MC.et"
      PrefabsToSpawn {
       "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }

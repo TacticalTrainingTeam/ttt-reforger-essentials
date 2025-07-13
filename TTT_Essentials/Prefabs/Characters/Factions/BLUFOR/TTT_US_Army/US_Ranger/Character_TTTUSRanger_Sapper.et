@@ -42,55 +42,55 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_ArsArma_magouch_morphed_MC.et"
     }
     ItemsInitConfigurationItem "{6335469C8729C743}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/pouch_tv115_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/placard/pouch_tv115_MC.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6335469C870671DF}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_HP103_Holster_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/holster/Pouch_HP103_Holster_MC.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{6335469C87DF8976}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/pistol1/Pouch_MP111_PistolClosed_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6335469C87BAF672}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_MP111_PistolClosed2_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/pistol3/Pouch_MP111_PistolClosed2_MC.et"
      PrefabsToSpawn {
       "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd.et"
      }
     }
     ItemsInitConfigurationItem "{6335469FFB872929}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/pistol/Pouch_GP106_RGD_Pouch_2_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6335469FF463C4AC}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/Grenade/Pouch_GP106_RGD_Pouch_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6335469FF45E0611}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_GP106_RGD_Pouch_2_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/grenade2/Pouch_GP106_RGD_Pouch_2_MC.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
      }
     }
     ItemsInitConfigurationItem "{6335469FF43C76AE}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP118_fannypack_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/util/Pouch_UP109_utillmid_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{6335469F5E6EEB48}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP109_utillmid_MC.et"
+     TargetStorage "Vest/Vest_TV102_rifleman_MC_1.et/medkit/Pouch_UP103_Medkit_MC.et"
      PrefabsToSpawn {
       "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }

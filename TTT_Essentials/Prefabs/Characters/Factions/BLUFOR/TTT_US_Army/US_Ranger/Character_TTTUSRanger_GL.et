@@ -31,27 +31,99 @@ SCR_ChimeraCharacter : "{3F0EFD57BD448DD8}Prefabs/Characters/Factions/BLUFOR/TTT
      }
     }
     ItemsInitConfigurationItem "{6334DC770FC0A7AB}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_Taktika_Pouches/Pouch_Taktika_holster_BLK.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/Holster/Pouch_Taktika_holster_BLK.et"
      PrefabsToSpawn {
       "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC770F8617B7}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_JPC_M4_Solo_MC.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/Pouch3/Pouch_JPC_M4_Solo_MC.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC78F73BFC25}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_OpenTop_JPC_MC.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/Pouch1/Pouch_OpenTop_JPC_MC.et"
      PrefabsToSpawn {
       "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
      }
     }
     ItemsInitConfigurationItem "{6334DC78E239A193}" {
-     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/Pouch4/Pouch_JPC_M4_Solo_MC.et"
      PrefabsToSpawn {
-      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      "{7F519F63E96020D4}Prefabs/Weapons/Magazines/PmagUnwindowed/Magazine_556x45_PMAG_30rnd_m995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BA9982E1}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/DanglerPouch/Pouch_Dangler_MC.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB72D3DC}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouchVest1/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB6AB62F}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouchVest2/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB430AE1}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouchVest3/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB3C0B5A}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch1/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB132EB5}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch2/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB0C7EF7}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch3/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BBE336CF}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch4/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BBDC7980}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch5/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BBB437FA}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch5/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BBAD054D}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch7/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65DA7780BB863EA1}" {
+     TargetStorage "Vest/Vest_JPC_Grenadier_MC.et/UGLPouch8/Pouch_40MM_MC.et"
+     PrefabsToSpawn {
+      "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
      }
     }
    }
