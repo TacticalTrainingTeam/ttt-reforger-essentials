@@ -47,12 +47,6 @@ GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
      }
      NumSlots 20
     }
-    MultiSlotConfiguration "{6471133E47736CDA}" {
-     SlotTemplate InventoryStorageSlot Grenades_BW {
-      Prefab "{6AEC459F4D52196C}Prefabs/Weapons/Grenades/DM51/Grenade_DM51.et"
-     }
-     NumSlots 20
-    }
     MultiSlotConfiguration "{644B245A69AD1CB3}" {
      SlotTemplate InventoryStorageSlot Smoke_Grenades {
       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"

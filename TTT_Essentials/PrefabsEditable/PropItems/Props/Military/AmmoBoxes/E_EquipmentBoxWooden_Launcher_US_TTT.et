@@ -7,10 +7,10 @@ GenericEntity : "{752F87C7E1FA6D63}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
     m_Image "{16D979172E6BEA49}UI/Textures/EditorPreviews/Auto/Props/Military/AmmoBoxes/US/E_EquipmentBoxWooden_Launcher_01_US.edds"
     m_sFaction "US"
     m_aAuthoredLabels {
-     11
+     FACTION_US
     }
     m_aAutoLabels {
-     108 1 121
+     THEME_MILITARY ENTITYTYPE_OBJECT SIZE_S
     }
    }
    m_bAutoRegister ALWAYS
@@ -27,15 +27,6 @@ GenericEntity : "{752F87C7E1FA6D63}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
      m_iPivotID ""
      m_vPosition 0 0 0
      m_vAngles 0 0 0
-    }
-   }
-  }
-  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
-   MultiSlots {
-    MultiSlotConfiguration "{6471133E6DEC8A4E}" {
-     SlotTemplate InventoryStorageSlot Pzf3_Ammo {
-      Prefab "{14F592D7A5313E0B}Prefabs/Weapons/Ammo/Ammo_Rocket_3ITHEAT.et"
-     }
     }
    }
   }

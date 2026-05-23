@@ -51,12 +51,6 @@ GenericEntity : "{42894F191BC9EDE1}Prefabs/Props/Core/AmmoBox_Base.et" {
      }
      NumSlots 5
     }
-    MultiSlotConfiguration "{644D026AAD656EE0}" {
-     SlotTemplate InventoryStorageSlot DmrAmmo {
-      Prefab "{E1CAF505C9E42E58}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110_M993.et"
-     }
-     NumSlots 10
-    }
    }
    m_fMaxWeight 39
   }

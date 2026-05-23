@@ -51,42 +51,6 @@ GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
      }
      NumSlots 10
     }
-    MultiSlotConfiguration "{644B245B967E9178}" {
-     SlotTemplate InventoryStorageSlot DmrAmmo {
-      Prefab "{E1CAF505C9E42E58}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110_M993.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{6471133E1558A8E0}" {
-     SlotTemplate InventoryStorageSlot G36_Ammo {
-      Prefab "{A6ADA3AD1788995A}Prefabs/Weapons/Magazines/G36Mag/556x45_G36.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{6471133E150ABEED}" {
-     SlotTemplate InventoryStorageSlot G95_Ammo {
-      Prefab "{F69E2A9E4CE2EADC}Prefabs/Weapons/Magazines/G95Mag/Gen3_PMag_M995_BLK.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{6471133E12E4E693}" {
-     SlotTemplate InventoryStorageSlot G28_Ammo {
-      Prefab "{0BDFB79FD282AD07}Prefabs/Weapons/Magazines/G28/Magazine_762x51_G28_20rnd_M61AP.et"
-     }
-     NumSlots 20
-    }
-    MultiSlotConfiguration "{6471133E12A2C0BD}" {
-     SlotTemplate InventoryStorageSlot MG3_Ammo {
-      Prefab "{D4737754E71BF24D}Prefabs/Weapons/Magazines/MG3/Box_762x51_M60_500rnd_2Ball_1Tracer_MG3.et"
-     }
-     NumSlots 5
-    }
-    MultiSlotConfiguration "{6471133B8E5B6A3B}" {
-     SlotTemplate InventoryStorageSlot HK_Ammo {
-      Prefab "{506A0F728603714F}Prefabs/Weapons/Magazines/HK437 Mags/Gen3_PMag_.300blk.et"
-     }
-     NumSlots 20
-    }
    }
    m_fMaxWeight 80
   }

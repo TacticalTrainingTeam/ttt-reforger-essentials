@@ -67,7 +67,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
      m_bShowInWelcomeScreenIfNonPlayable 0
     }
     SCR_Faction "{61237E82CC65E7B0}" {
-     m_bIsPlayable 1
+     m_bShowInWelcomeScreenIfNonPlayable 0
     }
    }
   }
@@ -75,110 +75,8 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
 }
 SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
  coords 1376.037 36.578 2411.72
- angleX 2.668
- angleY 0.208
- angleZ 4.472
+ angles 2.668 0.208 4.472
  m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{6471132D36678D19}" {
-   m_sLoadoutName "US SL"
-   m_sLoadoutResource "{48B10A3CFB55721C}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_SL.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132D23EA5EE7}" {
-   m_sLoadoutName "US TL"
-   m_sLoadoutResource "{4F76F06D9DD3C8DF}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_TL.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132EDF0CE0E9}" {
-   m_sLoadoutName "US Sapper"
-   m_sLoadoutResource "{BE60A942EF846CBB}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_Sapper.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132ED892721C}" {
-   m_sLoadoutName "US Rifleman"
-   m_sLoadoutResource "{997E7CC6978FFDD7}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_Rifleman.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132EDAE740DB}" {
-   m_sLoadoutName "US MG"
-   m_sLoadoutResource "{772E2539A79EC4EC}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_MG.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132EDBF48405}" {
-   m_sLoadoutName "US Medic"
-   m_sLoadoutResource "{CA3F9EADC9228A73}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_Medic.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132ED400F24A}" {
-   m_sLoadoutName "US LAT"
-   m_sLoadoutResource "{287E8BC67239B644}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_LAT.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132ED5FE8938}" {
-   m_sLoadoutName "US Grenadier"
-   m_sLoadoutResource "{28EC85023E66B925}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_GL.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132E9B525713}" {
-   m_sLoadoutName "US DMR"
-   m_sLoadoutResource "{3F2DBF0DB56FF7B4}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_DMR.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132E9466C6F9}" {
-   m_sLoadoutName "US AR"
-   m_sLoadoutResource "{2539FB23C9D1D00F}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_AR.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{6471132E9561533F}" {
-   m_sLoadoutName "US AMG"
-   m_sLoadoutResource "{6F993F603FFEDA21}Prefabs/Characters/Factions/BLUFOR/TTT_US_Army/US_Ranger/Character_TTTUSRanger_AMG.et"
-   m_sAffiliatedFaction "US"
-  }
-  SCR_FactionPlayerLoadout "{647291BE2B763E9D}" {
-   m_sLoadoutName "BW SL"
-   m_sLoadoutResource "{D7F084080FD7D2DC}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_SL.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE2475B480}" {
-   m_sLoadoutName "BW TL"
-   m_sLoadoutResource "{D0377E596951681F}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_TL.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE257BCF9F}" {
-   m_sLoadoutName "BW Rifleman"
-   m_sLoadoutResource "{A23587E4F9293D76}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_Rifleman.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE25830B1F}" {
-   m_sLoadoutName "BW MG"
-   m_sLoadoutResource "{E86FAB0D531C642C}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_MG.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE26A3FA33}" {
-   m_sLoadoutName "BW Medic"
-   m_sLoadoutResource "{7F7048413517B931}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_Medic.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE27C1CB82}" {
-   m_sLoadoutName "BW Grenadier"
-   m_sLoadoutResource "{B7AD0B36CAE419E5}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_GL.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE2091ADE3}" {
-   m_sLoadoutName "BW DMR"
-   m_sLoadoutResource "{F2209E3532E5A842}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_DMR.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE21A7301C}" {
-   m_sLoadoutName "BW AT"
-   m_sLoadoutResource "{62D01CD644DA6E93}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_AT.et"
-   m_sAffiliatedFaction "BW"
-  }
-  SCR_FactionPlayerLoadout "{647291BE2297466E}" {
-   m_sLoadoutName "BW AMG"
-   m_sLoadoutResource "{A2941E58B87485D6}Prefabs/Characters/Factions/BLUFOR/TTT_BW/BW_SF_Tropen/Character_TTTBW_SF_Tropen_AMG.et"
-   m_sAffiliatedFaction "BW"
-  }
   SCR_FactionPlayerLoadout "{6499080D0C89999C}" {
    m_sLoadoutName "USMC AAT"
    m_sLoadoutResource "{9F62A12764FDC292}Prefabs/Characters/Factions/BLUFOR/TTT_USMC/USMC_MEF/Character_TTT_USMC_MEF_AAT.et"

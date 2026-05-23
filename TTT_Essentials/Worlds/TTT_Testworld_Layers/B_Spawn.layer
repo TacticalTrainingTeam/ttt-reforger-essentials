@@ -1,6 +1,3 @@
-GenericEntity {
- coords 1385.975 36.201 2384.559
-}
 GenericEntity : "{0DEFE311584EAE1D}PrefabsEditable/PropItems/Props/Military/AmmoBoxes/E_EquipmentBoxWooden_RifleAmmo_US_TTT.et" {
  coords 1382.452 36.252 2383.423
 }
@@ -12,7 +9,7 @@ GenericEntity : "{28156277DF25435A}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
 }
 GenericEntity : "{40D93F5C348BF244}Prefabs/Structures/Signs/Large/SignLarge_TTT.et" {
  coords 1381.347 36.246 2388.701
- angleY 173.195
+ angles 0 173.195 0
 }
 GenericEntity : "{45ED510173AF4BEB}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole1_TTT.et" {
  coords 1376.387 36.565 2388.656
@@ -22,9 +19,7 @@ GenericEntity : "{492887787C6C7CE7}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556x
 }
 SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  coords 1375.273 36.436 2380.36
- angleX 0.894
- angleY 0.028
- angleZ 1.79
+ angles 0.894 0.028 1.79
 }
 SCR_SpawnPoint : "{69D81D4A5FB98F58}Prefabs/MP/Spawning/SpawnPoint_USMC_CP.et" {
  coords 1377.116 36.342 2376.998
@@ -46,8 +41,4 @@ GenericEntity : "{C8B055BE135BC087}PrefabsEditable/PropItems/Props/Military/Ammo
 }
 GenericEntity : "{D4AE12C1125A488B}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxWooden_RifleAmmo_US_TTT.et" {
  coords 1371.182 36.375 2373.433
-}
-SCR_SpawnPoint : "{F20107A21D6A693B}Prefabs/MP/Spawning/SpawnPoint_BW.et" {
- coords 1381.218 36.287 2384.177
- angleZ 2.684
 }

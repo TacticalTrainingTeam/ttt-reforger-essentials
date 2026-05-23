@@ -48,12 +48,6 @@ GenericEntity : "{9C4642487946A666}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
      }
      NumSlots 5
     }
-    MultiSlotConfiguration "{6471133E6DEC8A4E}" {
-     SlotTemplate InventoryStorageSlot Pzf3_Ammo {
-      Prefab "{14F592D7A5313E0B}Prefabs/Weapons/Ammo/Ammo_Rocket_3ITHEAT.et"
-     }
-     NumSlots 5
-    }
    }
    m_fMaxWeight 80
   }
